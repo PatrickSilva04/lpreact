@@ -163,7 +163,7 @@ function App() {
             <a target="_blank" href="https://www.linkedin.com/in/patrick-ferreira-a04a55155">
               <img src={linkedinIcon} alt="LinkedIn" width="30px" />
             </a>
-            { <a target="_blank" href="https://github.com/PatrickSilva04R">
+            { <a target="_blank" href="https://github.com/PatrickSilva04">
               <img src={githubIcon} alt="GitHub" width="30px" />
             </a> }
           </footer>
