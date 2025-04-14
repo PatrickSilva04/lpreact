@@ -55,9 +55,6 @@ section{
 }
 
 #s2{
-  background-image: url("./assets/Images/paper.png") ;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: #ffffff;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   display: flex;
@@ -213,7 +210,6 @@ footer img:hover{
   #s2{
       padding: 10vh 0px;
       height: auto;
-      background-image: url("./assets/Images/papermobile.png") ;
   }
   .formulario{
       width: 78%;

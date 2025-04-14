@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 
 // Importando as imagens
@@ -9,19 +8,17 @@ import pythonIcon from './assets/Images/python.png';
 import instagramIcon from './assets/Images/instagram.png';
 import facebookIcon from './assets/Images/facebook.png';
 import linkedinIcon from './assets/Images/linkedin.png';
-import profileLogo from './assets/Images/images.png';
 import githubIcon from './assets/Images/github.png';
 import profileLogo2  from './assets/Images/profilelogo.png';
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
       <div>
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#"><img className="img-logo" src={profileLogo} alt="Logo" /></a>
+            <a className="navbar-brand" href="#"><img className="img-logo" src={profileLogo2} alt="Logo" /></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
               aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
