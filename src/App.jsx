@@ -9,6 +9,9 @@ import pythonIcon from './assets/Images/python.png';
 import instagramIcon from './assets/Images/instagram.png';
 import facebookIcon from './assets/Images/facebook.png';
 import linkedinIcon from './assets/Images/linkedin.png';
+import profileLogo from './assets/Images/images.png';
+import githubIcon from './assets/Images/github.png';
+import profileLogo2  from './assets/Images/profilelogo.png';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,7 +41,7 @@ function App() {
           <section id="s1">
             <div className="s1-left">
               <div className="wrap-img">
-                <img className="img-s1" src={profileLogo} alt="Profile" />
+                <img className="img-s1" src={profileLogo2} alt="Profile" />
               </div>
             </div>
             <div className="s1-right">
@@ -163,9 +166,9 @@ function App() {
             <a target="_blank" href="https://www.linkedin.com/in/patrick-ferreira-a04a55155">
               <img src={linkedinIcon} alt="LinkedIn" width="30px" />
             </a>
-            {/* <a target="_blank" href="https://github.com/PatrickSilva04R">
+            { <a target="_blank" href="https://github.com/PatrickSilva04R">
               <img src={githubIcon} alt="GitHub" width="30px" />
-            </a> */}
+            </a> }
           </footer>
         </main>
       </div>

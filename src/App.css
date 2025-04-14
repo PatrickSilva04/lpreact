@@ -55,7 +55,7 @@ section{
 }
 
 #s2{
-  background-image: url("./assets/Images/paper.jfif") ;
+  background-image: url("./assets/Images/paper.png") ;
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -213,7 +213,7 @@ footer img:hover{
   #s2{
       padding: 10vh 0px;
       height: auto;
-      background-image: url("./assets/Images/papermobile.webp") ;
+      background-image: url("./assets/Images/papermobile.png") ;
   }
   .formulario{
       width: 78%;
